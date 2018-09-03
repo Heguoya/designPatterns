@@ -1,103 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>com.hgy.designpatterns.creationalpatterns.factorypattern</OriginalElement>
+  <OriginalElement>com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern</OriginalElement>
   <nodes>
-    <node x="217.13194444444446" y="238.0">com.hgy.designpatterns.creationalpatterns.factorypattern.SquareFactory</node>
-    <node x="454.7263888888889" y="238.0">com.hgy.designpatterns.creationalpatterns.factorypattern.RectangleFactory</node>
-    <node x="267.02500000000003" y="0.0">com.hgy.designpatterns.creationalpatterns.factorypattern.Shape</node>
-    <node x="153.0" y="124.0">com.hgy.designpatterns.creationalpatterns.factorypattern.Square</node>
-    <node x="0.0" y="124.0">com.hgy.designpatterns.creationalpatterns.factorypattern.Circle</node>
-    <node x="451.0" y="124.0">com.hgy.designpatterns.creationalpatterns.factorypattern.Rectangle</node>
-    <node x="297.625" y="342.0">com.hgy.designpatterns.creationalpatterns.factorypattern.Demo</node>
-    <node x="306.0" y="124.0">com.hgy.designpatterns.creationalpatterns.factorypattern.Factory</node>
-    <node x="66.13194444444446" y="238.0">com.hgy.designpatterns.creationalpatterns.factorypattern.CircleFactory</node>
+    <node x="451.0" y="124.0">com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Rectangle</node>
+    <node x="153.0" y="124.0">com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Square</node>
+    <node x="0.0" y="124.0">com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Circle</node>
+    <node x="66.13194444444446" y="238.0">com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.CircleFactory</node>
+    <node x="306.0" y="124.0">com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Factory</node>
+    <node x="267.02500000000003" y="0.0">com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Shape</node>
+    <node x="454.7263888888889" y="238.0">com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.RectangleFactory</node>
+    <node x="297.625" y="342.0">com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Demo</node>
+    <node x="217.13194444444446" y="238.0">com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.SquareFactory</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.Demo" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Factory">
-      <point x="0.0" y="-27.0" />
-      <point x="15.625" y="27.0" />
-    </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.SquareFactory" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Factory">
-      <point x="43.66666666666663" y="-27.0" />
-      <point x="326.2986111111111" y="218.0" />
-      <point x="352.875" y="218.0" />
-      <point x="-15.625" y="27.0" />
-    </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.RectangleFactory" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Shape">
-      <point x="49.0" y="-27.0" />
-      <point x="577.2263888888889" y="218.0" />
-      <point x="593.5" y="218.0" />
-      <point x="593.5" y="84.0" />
-      <point x="374.27500000000003" y="84.0" />
-      <point x="41.25" y="27.0" />
-    </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.CircleFactory" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Shape">
-      <point x="0.0" y="-27.0" />
-      <point x="128.63194444444446" y="218.0" />
-      <point x="142.5" y="218.0" />
-      <point x="142.5" y="84.0" />
-      <point x="291.77500000000003" y="84.0" />
-      <point x="-41.25" y="27.0" />
-    </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.RectangleFactory" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Factory">
-      <point x="-49.0" y="-27.0" />
-      <point x="479.2263888888889" y="218.0" />
-      <point x="415.375" y="218.0" />
-      <point x="46.875" y="27.0" />
-    </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.SquareFactory" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Shape">
-      <point x="0.0" y="-27.0" />
-      <point x="282.63194444444446" y="198.0" />
-      <point x="295.5" y="198.0" />
-      <point x="295.5" y="104.0" />
-      <point x="324.77500000000003" y="104.0" />
-      <point x="-8.25" y="27.0" />
-    </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.SquareFactory" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Square">
-      <point x="-43.66666666666663" y="-27.0" />
-      <point x="238.96527777777783" y="198.0" />
-      <point x="219.0" y="198.0" />
-      <point x="0.0" y="27.0" />
-    </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.CircleFactory" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Factory">
-      <point x="41.66666666666666" y="-27.0" />
-      <point x="170.29861111111111" y="208.0" />
-      <point x="321.625" y="208.0" />
-      <point x="-46.875" y="27.0" />
-    </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.CircleFactory" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Circle">
-      <point x="-41.66666666666666" y="-27.0" />
-      <point x="86.96527777777783" y="218.0" />
-      <point x="66.0" y="218.0" />
-      <point x="0.0" y="27.0" />
-    </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.Rectangle" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Shape">
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Rectangle" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Shape">
       <point x="0.0" y="-27.0" />
       <point x="517.0" y="94.0" />
       <point x="357.77500000000003" y="94.0" />
       <point x="24.75" y="27.0" />
     </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.Square" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Shape">
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Demo" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Factory">
       <point x="0.0" y="-27.0" />
-      <point x="219.0" y="94.0" />
-      <point x="308.27500000000003" y="94.0" />
-      <point x="-24.75" y="27.0" />
+      <point x="15.625" y="27.0" />
     </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.Factory" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Shape">
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Demo" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.CircleFactory">
+      <point x="-57.66666666666663" y="-27.0" />
+      <point x="326.45833333333337" y="317.0" />
+      <point x="128.63194444444446" y="317.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Factory" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Shape">
       <point x="0.0" y="-27.0" />
       <point x="368.5" y="104.0" />
       <point x="341.27500000000003" y="104.0" />
       <point x="8.25" y="27.0" />
     </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.RectangleFactory" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Rectangle">
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Square" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Shape">
       <point x="0.0" y="-27.0" />
-      <point x="528.2263888888889" y="218.0" />
-      <point x="517.0" y="218.0" />
-      <point x="0.0" y="27.0" />
+      <point x="219.0" y="94.0" />
+      <point x="308.27500000000003" y="94.0" />
+      <point x="-24.75" y="27.0" />
     </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.Demo" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Shape">
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Demo" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Shape">
       <point x="57.666666666666686" y="-27.0" />
       <point x="441.7916666666667" y="317.0" />
       <point x="613.9763888888889" y="317.0" />
@@ -105,28 +51,81 @@
       <point x="390.77500000000003" y="74.0" />
       <point x="57.75" y="27.0" />
     </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.Demo" target="com.hgy.designpatterns.creationalpatterns.factorypattern.CircleFactory">
-      <point x="-57.66666666666663" y="-27.0" />
-      <point x="326.45833333333337" y="317.0" />
-      <point x="128.63194444444446" y="317.0" />
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.SquareFactory" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Shape">
+      <point x="0.0" y="-27.0" />
+      <point x="282.63194444444446" y="198.0" />
+      <point x="295.5" y="198.0" />
+      <point x="295.5" y="104.0" />
+      <point x="324.77500000000003" y="104.0" />
+      <point x="-8.25" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.CircleFactory" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Circle">
+      <point x="-41.66666666666666" y="-27.0" />
+      <point x="86.96527777777783" y="218.0" />
+      <point x="66.0" y="218.0" />
       <point x="0.0" y="27.0" />
     </edge>
-    <edge source="com.hgy.designpatterns.creationalpatterns.factorypattern.Circle" target="com.hgy.designpatterns.creationalpatterns.factorypattern.Shape">
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.RectangleFactory" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Shape">
+      <point x="49.0" y="-27.0" />
+      <point x="577.2263888888889" y="218.0" />
+      <point x="593.5" y="218.0" />
+      <point x="593.5" y="84.0" />
+      <point x="374.27500000000003" y="84.0" />
+      <point x="41.25" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.RectangleFactory" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Factory">
+      <point x="-49.0" y="-27.0" />
+      <point x="479.2263888888889" y="218.0" />
+      <point x="415.375" y="218.0" />
+      <point x="46.875" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.SquareFactory" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Factory">
+      <point x="43.66666666666663" y="-27.0" />
+      <point x="326.2986111111111" y="218.0" />
+      <point x="352.875" y="218.0" />
+      <point x="-15.625" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.SquareFactory" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Square">
+      <point x="-43.66666666666663" y="-27.0" />
+      <point x="238.96527777777783" y="198.0" />
+      <point x="219.0" y="198.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Circle" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Shape">
       <point x="0.0" y="-27.0" />
       <point x="66.0" y="74.0" />
       <point x="275.27500000000003" y="74.0" />
       <point x="-57.75" y="27.0" />
     </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.CircleFactory" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Shape">
+      <point x="0.0" y="-27.0" />
+      <point x="128.63194444444446" y="218.0" />
+      <point x="142.5" y="218.0" />
+      <point x="142.5" y="84.0" />
+      <point x="291.77500000000003" y="84.0" />
+      <point x="-41.25" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.RectangleFactory" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Rectangle">
+      <point x="0.0" y="-27.0" />
+      <point x="528.2263888888889" y="218.0" />
+      <point x="517.0" y="218.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.CircleFactory" target="com.hgy.designpatterns.creationalpatterns.factorypatterns.factorypattern.Factory">
+      <point x="41.66666666666666" y="-27.0" />
+      <point x="170.29861111111111" y="208.0" />
+      <point x="321.625" y="208.0" />
+      <point x="-46.875" y="27.0" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="172.5" />
-  <SelectedNodes>
-    <node>com.hgy.designpatterns.creationalpatterns.factorypattern.CircleFactory</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.0" x="307.0" y="198.0" />
+  <SelectedNodes />
   <Categories>
-    <Category>Fields</Category>
-    <Category>Constructors</Category>
-    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
     <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hgy.designpatterns.creationalpatterns.builderpattern</OriginalElement>
+  <nodes>
+    <node x="164.0" y="424.5">com.hgy.designpatterns.creationalpatterns.builderpattern.VegBurger</node>
+    <node x="397.5" y="274.0">com.hgy.designpatterns.creationalpatterns.builderpattern.ColdDrink</node>
+    <node x="656.0" y="401.0">com.hgy.designpatterns.creationalpatterns.builderpattern.Meal</node>
+    <node x="328.0" y="424.5">com.hgy.designpatterns.creationalpatterns.builderpattern.Pepsi</node>
+    <node x="3.5" y="137.0">com.hgy.designpatterns.creationalpatterns.builderpattern.Wrapper</node>
+    <node x="453.0104166666667" y="722.0">com.hgy.designpatterns.creationalpatterns.builderpattern.BuilderDemo</node>
+    <node x="357.7523148148148" y="0.0">com.hgy.designpatterns.creationalpatterns.builderpattern.Packing</node>
+    <node x="0.0" y="424.5">com.hgy.designpatterns.creationalpatterns.builderpattern.ChickenBurger</node>
+    <node x="492.0" y="424.5">com.hgy.designpatterns.creationalpatterns.builderpattern.Coke</node>
+    <node x="633.875" y="114.0">com.hgy.designpatterns.creationalpatterns.builderpattern.Item</node>
+    <node x="324.6354166666667" y="137.0">com.hgy.designpatterns.creationalpatterns.builderpattern.Bottle</node>
+    <node x="366.2604166666667" y="595.0">com.hgy.designpatterns.creationalpatterns.builderpattern.MealBulider</node>
+    <node x="69.5" y="274.0">com.hgy.designpatterns.creationalpatterns.builderpattern.Burger</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.ColdDrink" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Packing">
+      <point x="0.0" y="-38.5" />
+      <point x="482.0" y="94.0" />
+      <point x="455.7523148148148" y="94.0" />
+      <point x="28.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.MealBulider" target="com.hgy.designpatterns.creationalpatterns.builderpattern.ChickenBurger">
+      <point x="-96.25" y="-38.5" />
+      <point x="385.5104166666667" y="575.0" />
+      <point x="72.0" y="575.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.MealBulider" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Coke">
+      <point x="19.25" y="-38.5" />
+      <point x="501.0104166666667" y="545.0" />
+      <point x="564.0" y="545.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.BuilderDemo" target="com.hgy.designpatterns.creationalpatterns.builderpattern.MealBulider">
+      <point x="0.0" y="-27.0" />
+      <point x="57.75" y="38.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.Burger" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Packing">
+      <point x="0.0" y="-38.5" />
+      <point x="154.0" y="84.0" />
+      <point x="399.7523148148148" y="84.0" />
+      <point x="-28.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.BuilderDemo" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Meal">
+      <point x="57.66666666666664" y="-27.0" />
+      <point x="597.1770833333333" y="697.0" />
+      <point x="742.9270833333334" y="697.0" />
+      <point x="742.9270833333334" y="575.0" />
+      <point x="804.3333333333334" y="575.0" />
+      <point x="59.33333333333337" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.Item" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Packing">
+      <point x="0.0" y="-50.0" />
+      <point x="718.375" y="84.0" />
+      <point x="483.7523148148148" y="84.0" />
+      <point x="56.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.Coke" target="com.hgy.designpatterns.creationalpatterns.builderpattern.ColdDrink">
+      <point x="0.0" y="-38.5" />
+      <point x="564.0" y="376.0" />
+      <point x="524.25" y="376.0" />
+      <point x="42.25" y="38.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.ColdDrink" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Bottle">
+      <point x="-56.33333333333334" y="-38.5" />
+      <point x="425.6666666666667" y="234.0" />
+      <point x="394.6354166666667" y="234.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.MealBulider" target="com.hgy.designpatterns.creationalpatterns.builderpattern.VegBurger">
+      <point x="-57.75" y="-38.5" />
+      <point x="424.0104166666667" y="565.0" />
+      <point x="236.0" y="565.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.Wrapper" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Packing">
+      <point x="0.0" y="-27.0" />
+      <point x="73.5" y="74.0" />
+      <point x="371.7523148148148" y="74.0" />
+      <point x="-56.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.Burger" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Item">
+      <point x="56.33333333333337" y="-38.5" />
+      <point x="210.33333333333337" y="244.0" />
+      <point x="655.0" y="244.0" />
+      <point x="-63.375" y="50.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.Burger" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Wrapper">
+      <point x="-56.33333333333337" y="-38.5" />
+      <point x="97.66666666666663" y="254.0" />
+      <point x="73.5" y="254.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.MealBulider" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Pepsi">
+      <point x="-19.25" y="-38.5" />
+      <point x="462.5104166666667" y="555.0" />
+      <point x="400.0" y="555.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.Meal" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Item">
+      <point x="-44.5" y="-62.0" />
+      <point x="700.5" y="376.0" />
+      <point x="739.5" y="376.0" />
+      <point x="21.125" y="50.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.Bottle" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Packing">
+      <point x="0.0" y="-27.0" />
+      <point x="394.6354166666667" y="94.0" />
+      <point x="427.7523148148148" y="94.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.ChickenBurger" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Burger">
+      <point x="0.0" y="-38.5" />
+      <point x="72.0" y="376.0" />
+      <point x="111.75" y="376.0" />
+      <point x="-42.25" y="38.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.MealBulider" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Meal">
+      <point x="57.75" y="-38.5" />
+      <point x="539.5104166666666" y="555.0" />
+      <point x="685.6666666666666" y="555.0" />
+      <point x="-59.33333333333337" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.ColdDrink" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Item">
+      <point x="56.33333333333334" y="-38.5" />
+      <point x="538.3333333333334" y="254.0" />
+      <point x="697.25" y="254.0" />
+      <point x="-21.125" y="50.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.Pepsi" target="com.hgy.designpatterns.creationalpatterns.builderpattern.ColdDrink">
+      <point x="0.0" y="-38.5" />
+      <point x="400.0" y="376.0" />
+      <point x="439.75" y="376.0" />
+      <point x="-42.25" y="38.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.builderpattern.VegBurger" target="com.hgy.designpatterns.creationalpatterns.builderpattern.Burger">
+      <point x="0.0" y="-38.5" />
+      <point x="236.0" y="376.0" />
+      <point x="196.25" y="376.0" />
+      <point x="42.25" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="401.5" y="398.5" />
+  <SelectedNodes>
+    <node>com.hgy.designpatterns.creationalpatterns.builderpattern.Burger</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
