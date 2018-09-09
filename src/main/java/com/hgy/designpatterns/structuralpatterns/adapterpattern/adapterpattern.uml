@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hgy.designpatterns.structuralpatterns.adapterpattern</OriginalElement>
+  <nodes>
+    <node x="396.81944444444446" y="580.0">com.hgy.designpatterns.structuralpatterns.adapterpattern.AdapterPatternDemo</node>
+    <node x="0.0" y="127.0">com.hgy.designpatterns.structuralpatterns.adapterpattern.Mp4AdvanceMediaPlayerImpl</node>
+    <node x="329.81944444444446" y="452.0">com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayerImpl</node>
+    <node x="247.2685185185185" y="254.0">com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayerAdapter</node>
+    <node x="242.0" y="127.0">com.hgy.designpatterns.structuralpatterns.adapterpattern.VlcAdvanceMediaPlayerImpl</node>
+    <node x="258.0601851851852" y="0.0">com.hgy.designpatterns.structuralpatterns.adapterpattern.AdvanceMediaPlayer</node>
+    <node x="475.0" y="138.5">com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayerImpl" target="com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayerAdapter">
+      <point x="-102.33333333333331" y="-39.0" />
+      <point x="380.9861111111111" y="427.0" />
+      <point x="325.0185185185185" y="427.0" />
+      <point x="-77.75" y="74.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.adapterpattern.VlcAdvanceMediaPlayerImpl" target="com.hgy.designpatterns.structuralpatterns.adapterpattern.AdvanceMediaPlayer">
+      <point x="0.0" y="-38.5" />
+      <point x="348.0" y="102.0" />
+      <point x="352.0601851851852" y="102.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayerAdapter" target="com.hgy.designpatterns.structuralpatterns.adapterpattern.Mp4AdvanceMediaPlayerImpl">
+      <point x="-116.625" y="-74.0" />
+      <point x="286.1435185185185" y="229.0" />
+      <point x="111.0" y="229.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.adapterpattern.AdapterPatternDemo" target="com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayerImpl">
+      <point x="-43.25" y="-27.0" />
+      <point x="440.06944444444446" y="555.0" />
+      <point x="406.56944444444446" y="555.0" />
+      <point x="-76.75" y="39.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayerImpl" target="com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayer">
+      <point x="102.33333333333337" y="-39.0" />
+      <point x="585.6527777777778" y="427.0" />
+      <point x="626.5" y="427.0" />
+      <point x="50.5" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayerAdapter" target="com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayer">
+      <point x="116.625" y="-74.0" />
+      <point x="519.3935185185185" y="229.0" />
+      <point x="525.5" y="229.0" />
+      <point x="-50.5" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.adapterpattern.Mp4AdvanceMediaPlayerImpl" target="com.hgy.designpatterns.structuralpatterns.adapterpattern.AdvanceMediaPlayer">
+      <point x="0.0" y="-38.5" />
+      <point x="111.0" y="102.0" />
+      <point x="289.3935185185185" y="102.0" />
+      <point x="-62.666666666666686" y="38.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayerAdapter" target="com.hgy.designpatterns.structuralpatterns.adapterpattern.VlcAdvanceMediaPlayerImpl">
+      <point x="-38.875" y="-74.0" />
+      <point x="363.8935185185185" y="229.0" />
+      <point x="348.0" y="229.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayerAdapter" target="com.hgy.designpatterns.structuralpatterns.adapterpattern.AdvanceMediaPlayer">
+      <point x="38.875" y="-74.0" />
+      <point x="441.6435185185185" y="229.0" />
+      <point x="464.5" y="229.0" />
+      <point x="464.5" y="102.0" />
+      <point x="414.72685185185185" y="102.0" />
+      <point x="62.66666666666663" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="338.5" y="317.0" />
+  <SelectedNodes>
+    <node>com.hgy.designpatterns.structuralpatterns.adapterpattern.MediaPlayer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

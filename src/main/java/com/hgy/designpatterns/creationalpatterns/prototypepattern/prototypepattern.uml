@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hgy.designpatterns.creationalpatterns.prototypepattern</OriginalElement>
+  <nodes>
+    <node x="0.0" y="194.0">com.hgy.designpatterns.creationalpatterns.prototypepattern.Circle</node>
+    <node x="152.0" y="194.0">com.hgy.designpatterns.creationalpatterns.prototypepattern.Square</node>
+    <node x="264.25" y="0.0">com.hgy.designpatterns.creationalpatterns.prototypepattern.BaseShape</node>
+    <node x="304.0" y="194.0">com.hgy.designpatterns.creationalpatterns.prototypepattern.Rectangle</node>
+    <node x="154.08124999999998" y="332.0">com.hgy.designpatterns.creationalpatterns.prototypepattern.ShapeCache</node>
+    <node x="277.33124999999995" y="483.0">com.hgy.designpatterns.creationalpatterns.prototypepattern.PrototypePatternsDemo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hgy.designpatterns.creationalpatterns.prototypepattern.ShapeCache" target="com.hgy.designpatterns.creationalpatterns.prototypepattern.BaseShape">
+      <point x="88.125" y="-50.5" />
+      <point x="383.20624999999995" y="302.0" />
+      <point x="449.5229166666667" y="302.0" />
+      <point x="449.5229166666667" y="164.0" />
+      <point x="370.41666666666663" y="164.0" />
+      <point x="32.66666666666663" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.prototypepattern.ShapeCache" target="com.hgy.designpatterns.creationalpatterns.prototypepattern.Square">
+      <point x="-17.625" y="-50.5" />
+      <point x="277.45624999999995" y="312.0" />
+      <point x="251.0" y="312.0" />
+      <point x="33.0" y="39.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.prototypepattern.Circle" target="com.hgy.designpatterns.creationalpatterns.prototypepattern.BaseShape">
+      <point x="33.0" y="-39.0" />
+      <point x="99.0" y="154.0" />
+      <point x="288.75" y="154.0" />
+      <point x="-49.0" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.prototypepattern.Square" target="com.hgy.designpatterns.creationalpatterns.prototypepattern.BaseShape">
+      <point x="-33.0" y="-39.0" />
+      <point x="185.0" y="164.0" />
+      <point x="305.0833333333333" y="164.0" />
+      <point x="-32.666666666666686" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.prototypepattern.ShapeCache" target="com.hgy.designpatterns.creationalpatterns.prototypepattern.Circle">
+      <point x="-88.125" y="-50.5" />
+      <point x="206.95624999999998" y="302.0" />
+      <point x="99.0" y="302.0" />
+      <point x="33.0" y="39.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.prototypepattern.Rectangle" target="com.hgy.designpatterns.creationalpatterns.prototypepattern.BaseShape">
+      <point x="-33.75" y="-39.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.prototypepattern.ShapeCache" target="com.hgy.designpatterns.creationalpatterns.prototypepattern.Rectangle">
+      <point x="17.625" y="-50.5" />
+      <point x="312.70624999999995" y="312.0" />
+      <point x="337.75" y="312.0" />
+      <point x="-33.75" y="39.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.prototypepattern.PrototypePatternsDemo" target="com.hgy.designpatterns.creationalpatterns.prototypepattern.BaseShape">
+      <point x="46.75" y="-27.0" />
+      <point x="417.58124999999995" y="458.0" />
+      <point x="480.0625" y="458.0" />
+      <point x="480.0625" y="144.0" />
+      <point x="403.0833333333333" y="144.0" />
+      <point x="65.33333333333331" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.creationalpatterns.prototypepattern.PrototypePatternsDemo" target="com.hgy.designpatterns.creationalpatterns.prototypepattern.ShapeCache">
+      <point x="-46.75" y="-27.0" />
+      <point x="324.08124999999995" y="458.0" />
+      <point x="295.08124999999995" y="458.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="240.5" y="268.5" />
+  <SelectedNodes>
+    <node>com.hgy.designpatterns.creationalpatterns.prototypepattern.Rectangle</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
