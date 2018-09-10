@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hgy.designpatterns.structuralpatterns.compositepattern</OriginalElement>
+  <nodes>
+    <node x="151.65857142857143" y="360.0">com.hgy.designpatterns.structuralpatterns.compositepattern.CompositePatternDemo</node>
+    <node x="81.11571428571429" y="0.0">com.hgy.designpatterns.structuralpatterns.compositepattern.Node</node>
+    <node x="212.0" y="208.5">com.hgy.designpatterns.structuralpatterns.compositepattern.FileNodeImpl</node>
+    <node x="0.0" y="185.0">com.hgy.designpatterns.structuralpatterns.compositepattern.NodeImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hgy.designpatterns.structuralpatterns.compositepattern.FileNodeImpl" target="com.hgy.designpatterns.structuralpatterns.compositepattern.Node">
+      <point x="-47.5" y="-39.0" />
+      <point x="259.5" y="165.0" />
+      <point x="204.54428571428573" y="165.0" />
+      <point x="27.428571428571445" y="62.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.compositepattern.CompositePatternDemo" target="com.hgy.designpatterns.structuralpatterns.compositepattern.FileNodeImpl">
+      <point x="0.0" y="-38.5" />
+      <point x="250.65857142857143" y="340.0" />
+      <point x="259.5" y="340.0" />
+      <point x="-47.5" y="39.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.compositepattern.CompositePatternDemo" target="com.hgy.designpatterns.structuralpatterns.compositepattern.Node">
+      <point x="79.19999999999999" y="-38.5" />
+      <point x="329.8585714285714" y="340.0" />
+      <point x="412.5" y="340.0" />
+      <point x="412.5" y="145.0" />
+      <point x="259.4014285714286" y="145.0" />
+      <point x="82.28571428571428" y="62.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.compositepattern.CompositePatternDemo" target="com.hgy.designpatterns.structuralpatterns.compositepattern.NodeImpl">
+      <point x="-39.599999999999966" y="-38.5" />
+      <point x="211.05857142857147" y="330.0" />
+      <point x="144.0" y="330.0" />
+      <point x="48.0" y="62.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.compositepattern.NodeImpl" target="com.hgy.designpatterns.structuralpatterns.compositepattern.Node">
+      <point x="-24.0" y="-62.5" />
+      <point x="72.0" y="155.0" />
+      <point x="122.25857142857146" y="155.0" />
+      <point x="-54.85714285714283" y="62.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="206.5" y="218.5" />
+  <SelectedNodes>
+    <node>com.hgy.designpatterns.structuralpatterns.compositepattern.CompositePatternDemo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

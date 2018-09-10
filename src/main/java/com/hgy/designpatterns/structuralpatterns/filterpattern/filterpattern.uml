@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hgy.designpatterns.structuralpatterns.filterpattern</OriginalElement>
+  <nodes>
+    <node x="1303.5" y="353.5">com.hgy.designpatterns.structuralpatterns.filterpattern.MaleCriteriaImpl</node>
+    <node x="657.5" y="318.0">com.hgy.designpatterns.structuralpatterns.filterpattern.AndCriteriaImpl</node>
+    <node x="333.50000000000006" y="318.0">com.hgy.designpatterns.structuralpatterns.filterpattern.OrCriteriaImpl</node>
+    <node x="675.3875" y="0.0">com.hgy.designpatterns.structuralpatterns.filterpattern.Person</node>
+    <node x="604.2354166666667" y="513.0">com.hgy.designpatterns.structuralpatterns.filterpattern.FilterPatternDemo</node>
+    <node x="10.5" y="353.5">com.hgy.designpatterns.structuralpatterns.filterpattern.SingleCriteriaImpl</node>
+    <node x="513.3854166666666" y="194.0">com.hgy.designpatterns.structuralpatterns.filterpattern.Criteria</node>
+    <node x="980.5" y="353.5">com.hgy.designpatterns.structuralpatterns.filterpattern.FemaleCriteriaImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.Criteria" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Person">
+      <point x="0.0" y="-27.0" />
+      <point x="664.8854166666666" y="174.0" />
+      <point x="777.7625" y="174.0" />
+      <point x="-14.625" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.SingleCriteriaImpl" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Criteria">
+      <point x="75.75000000000006" y="-27.0" />
+      <point x="237.75" y="278.0" />
+      <point x="528.5354166666666" y="278.0" />
+      <point x="-136.35000000000002" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.FemaleCriteriaImpl" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Criteria">
+      <point x="-75.75" y="-27.0" />
+      <point x="1056.25" y="278.0" />
+      <point x="770.9354166666666" y="278.0" />
+      <point x="106.04999999999995" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.AndCriteriaImpl" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Criteria">
+      <point x="-113.625" y="-62.5" />
+      <point x="695.375" y="298.0" />
+      <point x="680.0354166666667" y="298.0" />
+      <point x="15.150000000000091" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.FilterPatternDemo" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Person">
+      <point x="110.6875" y="-38.5" />
+      <point x="841.4229166666667" y="493.0" />
+      <point x="1617.0" y="493.0" />
+      <point x="1617.0" y="144.0" />
+      <point x="894.7625" y="144.0" />
+      <point x="102.375" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.OrCriteriaImpl" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Criteria">
+      <point x="37.875" y="-62.5" />
+      <point x="522.875" y="298.0" />
+      <point x="589.1354166666666" y="298.0" />
+      <point x="-75.75" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.FilterPatternDemo" target="com.hgy.designpatterns.structuralpatterns.filterpattern.FemaleCriteriaImpl">
+      <point x="47.4375" y="-38.5" />
+      <point x="778.1729166666667" y="473.0" />
+      <point x="1132.0" y="473.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.MaleCriteriaImpl" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Person">
+      <point x="75.75" y="-27.0" />
+      <point x="1530.75" y="154.0" />
+      <point x="865.5125" y="154.0" />
+      <point x="73.125" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.FilterPatternDemo" target="com.hgy.designpatterns.structuralpatterns.filterpattern.SingleCriteriaImpl">
+      <point x="-79.0625" y="-38.5" />
+      <point x="651.6729166666667" y="483.0" />
+      <point x="162.0" y="483.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.FilterPatternDemo" target="com.hgy.designpatterns.structuralpatterns.filterpattern.MaleCriteriaImpl">
+      <point x="79.0625" y="-38.5" />
+      <point x="809.7979166666667" y="483.0" />
+      <point x="1455.0" y="483.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.FilterPatternDemo" target="com.hgy.designpatterns.structuralpatterns.filterpattern.AndCriteriaImpl">
+      <point x="15.8125" y="-38.5" />
+      <point x="746.5479166666667" y="463.0" />
+      <point x="809.0" y="463.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.FilterPatternDemo" target="com.hgy.designpatterns.structuralpatterns.filterpattern.OrCriteriaImpl">
+      <point x="-47.4375" y="-38.5" />
+      <point x="683.2979166666667" y="473.0" />
+      <point x="485.00000000000006" y="473.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.FilterPatternDemo" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Criteria">
+      <point x="-15.8125" y="-38.5" />
+      <point x="714.9229166666667" y="463.0" />
+      <point x="647.0" y="463.0" />
+      <point x="647.0" y="298.0" />
+      <point x="649.7354166666667" y="298.0" />
+      <point x="-15.149999999999977" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.AndCriteriaImpl" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Person">
+      <point x="113.625" y="-62.5" />
+      <point x="922.625" y="174.0" />
+      <point x="807.0125" y="174.0" />
+      <point x="14.625" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.FemaleCriteriaImpl" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Person">
+      <point x="75.75" y="-27.0" />
+      <point x="1207.75" y="164.0" />
+      <point x="836.2625" y="164.0" />
+      <point x="43.875" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.MaleCriteriaImpl" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Criteria">
+      <point x="-75.75" y="-27.0" />
+      <point x="1379.25" y="268.0" />
+      <point x="801.2354166666668" y="268.0" />
+      <point x="136.35000000000014" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.SingleCriteriaImpl" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Person">
+      <point x="-75.75" y="-27.0" />
+      <point x="86.25000000000011" y="154.0" />
+      <point x="719.2625" y="154.0" />
+      <point x="-73.125" y="62.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.filterpattern.OrCriteriaImpl" target="com.hgy.designpatterns.structuralpatterns.filterpattern.Person">
+      <point x="-113.625" y="-62.5" />
+      <point x="371.37500000000006" y="164.0" />
+      <point x="748.5125" y="164.0" />
+      <point x="-43.875" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="808.5" y="295.0" />
+  <SelectedNodes>
+    <node>com.hgy.designpatterns.structuralpatterns.filterpattern.FemaleCriteriaImpl</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
