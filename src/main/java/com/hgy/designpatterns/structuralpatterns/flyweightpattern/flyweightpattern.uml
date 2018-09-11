@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hgy.designpatterns.structuralpatterns.flyweightpattern</OriginalElement>
+  <nodes>
+    <node x="123.375" y="454.0">com.hgy.designpatterns.structuralpatterns.flyweightpattern.FlyweightPatternDemo</node>
+    <node x="81.85714285714286" y="0.0">com.hgy.designpatterns.structuralpatterns.flyweightpattern.Shape</node>
+    <node x="0.0" y="326.0">com.hgy.designpatterns.structuralpatterns.flyweightpattern.ShapeFactory</node>
+    <node x="163.25" y="104.0">com.hgy.designpatterns.structuralpatterns.flyweightpattern.Circle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hgy.designpatterns.structuralpatterns.flyweightpattern.ShapeFactory" target="com.hgy.designpatterns.structuralpatterns.flyweightpattern.Circle">
+      <point x="107.25" y="-39.0" />
+      <point x="250.25" y="301.0" />
+      <point x="235.25" y="301.0" />
+      <point x="0.0" y="86.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.flyweightpattern.FlyweightPatternDemo" target="com.hgy.designpatterns.structuralpatterns.flyweightpattern.ShapeFactory">
+      <point x="-53.0" y="-73.5" />
+      <point x="176.375" y="429.0" />
+      <point x="143.0" y="429.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.flyweightpattern.Circle" target="com.hgy.designpatterns.structuralpatterns.flyweightpattern.Shape">
+      <point x="0.0" y="-86.0" />
+      <point x="235.25" y="84.0" />
+      <point x="191.85714285714286" y="84.0" />
+      <point x="44.0" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.flyweightpattern.FlyweightPatternDemo" target="com.hgy.designpatterns.structuralpatterns.flyweightpattern.Circle">
+      <point x="53.0" y="-73.5" />
+      <point x="282.375" y="429.0" />
+      <point x="296.5" y="429.0" />
+      <point x="296.5" y="301.0" />
+      <point x="283.25" y="301.0" />
+      <point x="48.0" y="86.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.flyweightpattern.ShapeFactory" target="com.hgy.designpatterns.structuralpatterns.flyweightpattern.Shape">
+      <point x="-35.75" y="-39.0" />
+      <point x="107.25" y="301.0" />
+      <point x="108.82142857142858" y="301.0" />
+      <point x="108.82142857142858" y="84.0" />
+      <point x="147.85714285714286" y="84.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.893719806763285" x="168.0" y="300.5" />
+  <SelectedNodes>
+    <node>com.hgy.designpatterns.structuralpatterns.flyweightpattern.FlyweightPatternDemo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
