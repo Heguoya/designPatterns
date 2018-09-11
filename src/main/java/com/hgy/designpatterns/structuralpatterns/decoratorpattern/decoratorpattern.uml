@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hgy.designpatterns.structuralpatterns.decoratorpattern</OriginalElement>
+  <nodes>
+    <node x="338.63480392156856" y="468.0">com.hgy.designpatterns.structuralpatterns.decoratorpattern.Player</node>
+    <node x="806.8333333333333" y="124.0">com.hgy.designpatterns.structuralpatterns.decoratorpattern.BlindMonk</node>
+    <node x="334.99999999999994" y="124.0">com.hgy.designpatterns.structuralpatterns.decoratorpattern.Skills</node>
+    <node x="431.49999999999994" y="306.0">com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsW</node>
+    <node x="334.99999999999994" y="0.0">com.hgy.designpatterns.structuralpatterns.decoratorpattern.Hero</node>
+    <node x="215.49999999999994" y="306.0">com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsE</node>
+    <node x="640.5" y="306.0">com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsQ</node>
+    <node x="10.5" y="306.0">com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsR</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Player" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsW">
+      <point x="32.4375" y="-27.0" />
+      <point x="457.57230392156856" y="428.0" />
+      <point x="526.0" y="428.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsR" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Skills">
+      <point x="0.0" y="-51.0" />
+      <point x="103.0" y="256.0" />
+      <point x="343.0499999999999" y="256.0" />
+      <point x="-72.45000000000005" y="51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.BlindMonk" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Hero">
+      <point x="0.0" y="-51.0" />
+      <point x="894.3333333333333" y="74.0" />
+      <point x="487.0555555555555" y="74.0" />
+      <point x="71.55555555555554" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Player" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsQ">
+      <point x="54.0625" y="-27.0" />
+      <point x="479.19730392156856" y="438.0" />
+      <point x="734.0" y="438.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Player" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsR">
+      <point x="-54.0625" y="-27.0" />
+      <point x="371.07230392156856" y="438.0" />
+      <point x="103.0" y="438.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsQ" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Skills">
+      <point x="-62.33333333333334" y="-51.0" />
+      <point x="671.6666666666666" y="266.0" />
+      <point x="471.84999999999985" y="266.0" />
+      <point x="56.34999999999991" y="51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsR" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Hero">
+      <point x="-61.66666666666663" y="-51.0" />
+      <point x="41.33333333333337" y="286.0" />
+      <point x="90.44101307189544" y="286.0" />
+      <point x="90.44101307189544" y="84.0" />
+      <point x="361.83333333333326" y="84.0" />
+      <point x="-53.666666666666686" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsQ" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Hero">
+      <point x="62.333333333333314" y="-51.0" />
+      <point x="796.3333333333333" y="246.0" />
+      <point x="725.3021241830064" y="246.0" />
+      <point x="725.3021241830064" y="84.0" />
+      <point x="469.1666666666666" y="84.0" />
+      <point x="53.66666666666663" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsE" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Skills">
+      <point x="61.33333333333337" y="-51.0" />
+      <point x="368.8333333333333" y="286.0" />
+      <point x="391.34999999999997" y="286.0" />
+      <point x="-24.149999999999977" y="51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Player" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Skills">
+      <point x="10.8125" y="-27.0" />
+      <point x="435.94730392156856" y="448.0" />
+      <point x="420.99999999999994" y="448.0" />
+      <point x="420.99999999999994" y="286.0" />
+      <point x="423.5499999999999" y="286.0" />
+      <point x="8.049999999999955" y="51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsW" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Hero">
+      <point x="63.0" y="-51.0" />
+      <point x="589.0" y="94.0" />
+      <point x="451.27777777777766" y="94.0" />
+      <point x="35.777777777777715" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Player" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsE">
+      <point x="-32.4375" y="-27.0" />
+      <point x="392.69730392156856" y="428.0" />
+      <point x="307.49999999999994" y="428.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Player" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.BlindMonk">
+      <point x="75.6875" y="-27.0" />
+      <point x="500.82230392156856" y="448.0" />
+      <point x="894.3333333333333" y="448.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Skills" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Hero">
+      <point x="-53.66666666666663" y="-51.0" />
+      <point x="361.8333333333333" y="104.0" />
+      <point x="397.61111111111103" y="104.0" />
+      <point x="-17.888888888888914" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsE" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Hero">
+      <point x="-61.33333333333337" y="-51.0" />
+      <point x="246.16666666666654" y="94.0" />
+      <point x="379.7222222222221" y="94.0" />
+      <point x="-35.77777777777783" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.SkillsW" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Skills">
+      <point x="-63.0" y="-51.0" />
+      <point x="462.99999999999994" y="286.0" />
+      <point x="439.6499999999999" y="286.0" />
+      <point x="24.149999999999977" y="51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Player" target="com.hgy.designpatterns.structuralpatterns.decoratorpattern.Hero">
+      <point x="-75.6875" y="-27.0" />
+      <point x="349.44730392156856" y="448.0" />
+      <point x="0.0" y="448.0" />
+      <point x="0.0" y="74.0" />
+      <point x="343.9444444444444" y="74.0" />
+      <point x="-71.55555555555554" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="491.0" y="261.0" />
+  <SelectedNodes>
+    <node>com.hgy.designpatterns.structuralpatterns.decoratorpattern.Player</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
