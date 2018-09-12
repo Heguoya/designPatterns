@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hgy.designpatterns.behavioralpatterns.mementopattern</OriginalElement>
+  <nodes>
+    <node x="126.1125" y="0.0">com.hgy.designpatterns.behavioralpatterns.mementopattern.Memento</node>
+    <node x="150.18124999999998" y="279.0">com.hgy.designpatterns.behavioralpatterns.mementopattern.MementoPatternDemo</node>
+    <node x="257.0" y="128.0">com.hgy.designpatterns.behavioralpatterns.mementopattern.Originator</node>
+    <node x="0.0" y="128.0">com.hgy.designpatterns.behavioralpatterns.mementopattern.CareTaker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.mementopattern.Originator" target="com.hgy.designpatterns.behavioralpatterns.mementopattern.Memento">
+      <point x="73.25" y="-50.5" />
+      <point x="476.75" y="98.0" />
+      <point x="277.3125" y="98.0" />
+      <point x="67.19999999999999" y="39.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.mementopattern.CareTaker" target="com.hgy.designpatterns.behavioralpatterns.mementopattern.Memento">
+      <point x="0.0" y="-50.5" />
+      <point x="118.5" y="108.0" />
+      <point x="176.5125" y="108.0" />
+      <point x="-33.60000000000002" y="39.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.mementopattern.MementoPatternDemo" target="com.hgy.designpatterns.behavioralpatterns.mementopattern.CareTaker">
+      <point x="-67.5" y="-27.0" />
+      <point x="172.68124999999998" y="259.0" />
+      <point x="59.25" y="259.0" />
+      <point x="-59.25" y="50.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.mementopattern.MementoPatternDemo" target="com.hgy.designpatterns.behavioralpatterns.mementopattern.Originator">
+      <point x="67.5" y="-27.0" />
+      <point x="307.68125" y="259.0" />
+      <point x="476.75" y="259.0" />
+      <point x="73.25" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="128.5" y="195.0" />
+  <SelectedNodes>
+    <node>com.hgy.designpatterns.behavioralpatterns.mementopattern.Memento</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

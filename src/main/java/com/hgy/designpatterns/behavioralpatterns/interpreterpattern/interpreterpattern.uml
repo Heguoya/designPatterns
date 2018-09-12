@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hgy.designpatterns.behavioralpatterns.interpreterpattern</OriginalElement>
+  <nodes>
+    <node x="485.6666666666667" y="0.0">com.hgy.designpatterns.behavioralpatterns.interpreterpattern.Expression</node>
+    <node x="0.0" y="135.5">com.hgy.designpatterns.behavioralpatterns.interpreterpattern.TerminalExpressionImpl</node>
+    <node x="440.2777777777778" y="299.0">com.hgy.designpatterns.behavioralpatterns.interpreterpattern.InterpreterPatternDemo</node>
+    <node x="271.00000000000006" y="124.0">com.hgy.designpatterns.behavioralpatterns.interpreterpattern.OrExpressionImpl</node>
+    <node x="606.0" y="124.0">com.hgy.designpatterns.behavioralpatterns.interpreterpattern.AndExpressionImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.InterpreterPatternDemo" target="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.AndExpressionImpl">
+      <point x="39.375" y="-50.0" />
+      <point x="637.1527777777778" y="269.0" />
+      <point x="767.5" y="269.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.InterpreterPatternDemo" target="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.OrExpressionImpl">
+      <point x="-39.375" y="-50.0" />
+      <point x="558.4027777777778" y="269.0" />
+      <point x="428.50000000000006" y="269.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.InterpreterPatternDemo" target="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.TerminalExpressionImpl">
+      <point x="-118.125" y="-50.0" />
+      <point x="479.6527777777778" y="279.0" />
+      <point x="125.5" y="279.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.TerminalExpressionImpl" target="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.Expression">
+      <point x="0.0" y="-51.0" />
+      <point x="125.5" y="74.0" />
+      <point x="499.5416666666667" y="74.0" />
+      <point x="-97.125" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.AndExpressionImpl" target="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.Expression">
+      <point x="-107.66666666666674" y="-62.5" />
+      <point x="659.8333333333333" y="104.0" />
+      <point x="610.5416666666666" y="104.0" />
+      <point x="13.875" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.OrExpressionImpl" target="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.Expression">
+      <point x="105.0" y="-62.5" />
+      <point x="533.5" y="104.0" />
+      <point x="582.7916666666666" y="104.0" />
+      <point x="-13.875" y="27.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.InterpreterPatternDemo" target="com.hgy.designpatterns.behavioralpatterns.interpreterpattern.Expression">
+      <point x="118.12500000000001" y="-50.0" />
+      <point x="715.9027777777778" y="279.0" />
+      <point x="939.5" y="279.0" />
+      <point x="939.5" y="74.0" />
+      <point x="693.7916666666667" y="74.0" />
+      <point x="97.12500000000001" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="470.0" y="199.5" />
+  <SelectedNodes>
+    <node>com.hgy.designpatterns.behavioralpatterns.interpreterpattern.AndExpressionImpl</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hgy.designpatterns.behavioralpatterns.chainpattern</OriginalElement>
+  <nodes>
+    <node x="379.75" y="372.0">com.hgy.designpatterns.behavioralpatterns.chainpattern.ChainPatternDemo</node>
+    <node x="0.0" y="244.0">com.hgy.designpatterns.behavioralpatterns.chainpattern.ConsoleAbstractLoggerImpl</node>
+    <node x="533.0" y="244.0">com.hgy.designpatterns.behavioralpatterns.chainpattern.FileAbstractLoggerImpl</node>
+    <node x="405.25" y="0.0">com.hgy.designpatterns.behavioralpatterns.chainpattern.AbstractLogger</node>
+    <node x="275.0" y="244.0">com.hgy.designpatterns.behavioralpatterns.chainpattern.ErrorAbstractLoggerImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.chainpattern.ChainPatternDemo" target="com.hgy.designpatterns.behavioralpatterns.chainpattern.FileAbstractLoggerImpl">
+      <point x="35.125" y="-38.5" />
+      <point x="555.375" y="342.0" />
+      <point x="646.5" y="342.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.chainpattern.ConsoleAbstractLoggerImpl" target="com.hgy.designpatterns.behavioralpatterns.chainpattern.AbstractLogger">
+      <point x="0.0" y="-39.0" />
+      <point x="127.5" y="214.0" />
+      <point x="434.0" y="214.0" />
+      <point x="-86.25" y="97.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.chainpattern.ChainPatternDemo" target="com.hgy.designpatterns.behavioralpatterns.chainpattern.AbstractLogger">
+      <point x="105.375" y="-38.5" />
+      <point x="625.625" y="352.0" />
+      <point x="770.5" y="352.0" />
+      <point x="770.5" y="214.0" />
+      <point x="606.5" y="214.0" />
+      <point x="86.25" y="97.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.chainpattern.ChainPatternDemo" target="com.hgy.designpatterns.behavioralpatterns.chainpattern.ConsoleAbstractLoggerImpl">
+      <point x="-105.375" y="-38.5" />
+      <point x="414.875" y="352.0" />
+      <point x="127.5" y="352.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.chainpattern.ErrorAbstractLoggerImpl" target="com.hgy.designpatterns.behavioralpatterns.chainpattern.AbstractLogger">
+      <point x="0.0" y="-39.0" />
+      <point x="394.0" y="224.0" />
+      <point x="491.5" y="224.0" />
+      <point x="-28.75" y="97.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.chainpattern.ChainPatternDemo" target="com.hgy.designpatterns.behavioralpatterns.chainpattern.ErrorAbstractLoggerImpl">
+      <point x="-35.125" y="-38.5" />
+      <point x="485.125" y="342.0" />
+      <point x="394.0" y="342.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.chainpattern.FileAbstractLoggerImpl" target="com.hgy.designpatterns.behavioralpatterns.chainpattern.AbstractLogger">
+      <point x="0.0" y="-39.0" />
+      <point x="646.5" y="224.0" />
+      <point x="549.0" y="224.0" />
+      <point x="28.75" y="97.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="385.5" y="224.5" />
+  <SelectedNodes>
+    <node>com.hgy.designpatterns.behavioralpatterns.chainpattern.ChainPatternDemo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

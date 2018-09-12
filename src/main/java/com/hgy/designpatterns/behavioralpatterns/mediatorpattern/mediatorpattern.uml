@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hgy.designpatterns.behavioralpatterns.mediatorpattern</OriginalElement>
+  <nodes>
+    <node x="18.0" y="104.0">com.hgy.designpatterns.behavioralpatterns.mediatorpattern.User</node>
+    <node x="38.0" y="256.0">com.hgy.designpatterns.behavioralpatterns.mediatorpattern.MediatorPatternDemo</node>
+    <node x="0.0" y="0.0">com.hgy.designpatterns.behavioralpatterns.mediatorpattern.ChatRoom</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.mediatorpattern.MediatorPatternDemo" target="com.hgy.designpatterns.behavioralpatterns.mediatorpattern.User">
+      <point x="-44.5" y="-27.0" />
+      <point x="82.5" y="231.0" />
+      <point x="72.5" y="231.0" />
+      <point x="-54.5" y="51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.mediatorpattern.ChatRoom" target="com.hgy.designpatterns.behavioralpatterns.mediatorpattern.User">
+      <point x="63.5" y="27.0" />
+      <point x="190.5" y="79.0" />
+      <point x="181.5" y="79.0" />
+      <point x="54.5" y="-51.0" />
+    </edge>
+    <edge source="com.hgy.designpatterns.behavioralpatterns.mediatorpattern.User" target="com.hgy.designpatterns.behavioralpatterns.mediatorpattern.ChatRoom">
+      <point x="-54.5" y="-51.0" />
+      <point x="72.5" y="79.0" />
+      <point x="63.5" y="79.0" />
+      <point x="-63.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="127.0" y="155.0" />
+  <SelectedNodes>
+    <node>com.hgy.designpatterns.behavioralpatterns.mediatorpattern.User</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
